@@ -1,6 +1,6 @@
-#about-me{
-    .container{
-        .row{
+#about-me {
+    .container {
+        .row {
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -9,16 +9,18 @@
     }
 }
 
-#about-me-description{
+#about-me-description {
     margin-top: 20px;
     border-radius: 15px;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     padding: 20px 50px 20px 20px;
-    span{
+
+    span {
         display: flex;
         justify-content: center;
         align-items: center;
-        a{
+
+        a {
             text-decoration: none;
             background-color: $text-color;
             color: $main-color;
@@ -28,21 +30,20 @@
             margin: 10px;
             padding: 5px 10px;
             border-radius: 5px;
-        }
 
-        a:hover{
-            font-size: 22px;
+            &:hover {
+                font-size: 1.2em;
+            }
         }
     }
 }
 
 @media (max-width: 768px) {
     #about-me-description {
-      padding: 20px;
+        padding: 20px;
     }
-  
+
     #about-me-description span a {
-      font-size: 18px;
+        font-size: 18px;
     }
-  }
-  
+}
