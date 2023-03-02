@@ -80,6 +80,13 @@ body {
   background-color: #09233b;
 }
 
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+
 #home {
   height: 100vh;
   display: flex;
@@ -189,6 +196,10 @@ i {
 
 .item {
   height: 400px;
+}
+
+.carousel-caption {
+  color: #66c7f4;
 }
 
 @media (max-width: 768px) {

@@ -7,6 +7,10 @@
     height: 400px;
 }
 
+.carousel-caption{
+    color: $text-color;
+}
+
 @media (max-width: 768px) {
     .item{
         height: 250px;
