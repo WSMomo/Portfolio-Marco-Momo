@@ -121,23 +121,52 @@ h1{
     margin-left: 20px;
 }
 
-@media screen and (max-width: 1200px) {
-    body{
+  @media screen and (max-width: 1200px) {
+    body {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
     }
-    #sinistra, #destra{
-        height: 100%;
+
+    #sinistra, #destra {
         width: 100%;
+        height: auto;
+        padding: 20px;
     }
 
-    div{
+    #sinistra {
+        background-color: #09233B;
+        color: white;
+    }
+
+    #pic-container {
+        width: 100%;
         display: flex;
         justify-content: center;
-        align-items: start;
-        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
     }
 
-  }
+    #pic {
+        width: 40%;
+        border: 1px white solid;
+    }
+
+    #contatti ul {
+        margin-top: 0;
+    }
+
+    .section {
+        margin: 10px 0;
+    }
+
+    @media screen and (max-width: 600px) {
+        h1 {
+            font-size: 30px;
+        }
+
+        #pic {
+            width: 60%;
+        }
+    }
+}
