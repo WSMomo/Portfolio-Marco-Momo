@@ -5,3 +5,9 @@
 .item{
     height: 400px;
 }
+
+@media (max-width: 768px) {
+    .item{
+        height: 250px;
+    }
+}
