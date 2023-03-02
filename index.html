@@ -207,16 +207,16 @@
             <!-- form -->
             <div class="row d-flex justify-content-center">
                 <div class="col col-lg-8">
-                    <form action="">
+                    <form name="contactMeForm" action="mailto:momomarcoj@gmail.com" method="post" enctype="text/plain">
                         <div class="row">
                             <!-- name -->
                             <div class="col-md-6 mt-3">
-                                <input type="text" name="name" id="name" class="form-control" placeholder="Your name"
+                                <input id="form-name" type="text" name="name" id="name" class="form-control" placeholder="Your name"
                                     required>
                             </div>
                             <!-- mail -->
                             <div class="col-md-6 mt-3">
-                                <input type="email" name="email" id="email" class="form-control"
+                                <input id="form-email" type="email" name="email" id="email" class="form-control"
                                     placeholder="Your email" required>
                             </div>
 
@@ -224,7 +224,7 @@
                         <!-- subject -->
                         <div class="row">
                             <div class="col">
-                                <input type="text" name="subject" id="subject" class="form-control mt-3"
+                                <input id="form-subject" type="text" name="subject" id="subject" class="form-control mt-3"
                                     placeholder="Subject" required>
                             </div>
                         </div>
@@ -232,7 +232,7 @@
                         <div class="row">
                             <div class="col">
                                 <div class="message">
-                                    <textarea class="form-control mt-3" name="message" id="message" rows="3"
+                                    <textarea id="form-message" class="form-control mt-3" name="message" id="message" rows="3"
                                         placeholder="Your message" required></textarea>
                                 </div>
                             </div>
