@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: 'Times New Roman', Times, serif
 }
 
 body{
@@ -37,9 +37,8 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: start;
-
-    width: 20%;
     height: 100vh;
+    width: 20%;
     background-color: #09233B;
     color: white;
 }
@@ -94,8 +93,8 @@ h1{
     align-items: start;
     flex-direction: column;
     background-color: white;
-    height: 100vh;
     width: 80%;
+    height: 100vh;
 }
 
 #privacy{
@@ -122,15 +121,23 @@ h1{
     margin-left: 20px;
 }
 
-@media screen and (max-width: 992px) {
-    body {
-      background-color: blue;
+@media screen and (max-width: 1200px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-  }
-  
-  /* On screens that are 600px or less, set the background color to olive */
-  @media screen and (max-width: 600px) {
-    body {
-      background-color: olive;
+    #sinistra, #destra{
+        height: 100%;
+        width: 100%;
     }
+
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+    }
+
   }
