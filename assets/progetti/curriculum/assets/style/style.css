@@ -1,0 +1,136 @@
+/* generale */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+body{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+
+li{
+    margin-left: 30px;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+/* divisione */
+#divider{
+    margin-left: 20px;
+    height: 3px;
+    width: 10%;
+    background-color: black;
+}
+
+
+/* lato sinistro */
+#sinistra{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+    width: 20%;
+    height: 100vh;
+    background-color: #09233B;
+    color: white;
+}
+
+/* titolo */
+
+#curriculum-title{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 40px;
+}
+
+#sinistra div{
+    margin: 10px 5px 20px 10px;
+}
+/* immagine profilo */
+#pic-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pic{
+    width: 60%;
+    border: 1px white solid;
+}
+#contatti ul{
+    margin-top: 8px;
+}
+
+#contatti li{
+    margin-top: 3px;
+    margin-left: 10px;
+    list-style: none;
+}
+
+#contatti li i {
+    margin-right: 8px;
+}
+
+
+/* lato destro */
+#destra{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    background-color: white;
+    height: 100vh;
+    width: 80%;
+}
+
+#privacy{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    font-size: 14px
+}
+#firma img{
+    width: 200px;
+}
+
+.section{
+    margin: 10px 0 10px 20px;
+}
+
+.periodo, .descrizione{
+    font-weight: 700;
+}
+
+.little-section{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+      background-color: blue;
+    }
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+    }
+  }
