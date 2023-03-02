@@ -1,0 +1,17 @@
+#home{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $text-color;
+
+    div{
+        margin: 0 15px;
+    }
+}
+
+#pic-img{
+    max-width: 400px;
+    border-radius: 5px;
+}
+

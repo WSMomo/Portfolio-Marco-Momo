@@ -1,0 +1,41 @@
+#skills{
+    .container{
+        .row{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+a{
+    color: #66c7f4;
+}
+
+i{
+    margin: 15px;
+}
+#html-icon:hover{
+    color: #E44D26;
+}
+
+#css-icon:hover{
+    color: #264DE4;
+}
+
+#js-icon:hover{
+    color: #EAD41C;
+}
+
+#bootstrap-icon:hover{
+    color: #830AFA;
+}
+
+#sass-icon:hover{
+    color: #CC6699;
+}
+
+#java-icon:hover{
+    color: #EA2B2E;
+}
