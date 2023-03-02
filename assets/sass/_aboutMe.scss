@@ -46,4 +46,15 @@
     #about-me-description span a {
         font-size: 18px;
     }
+
+    span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        a{
+            text-align: center;
+            width: 230px;
+        }
+    }
 }
