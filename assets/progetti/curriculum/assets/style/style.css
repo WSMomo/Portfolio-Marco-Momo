@@ -11,12 +11,15 @@
     font-family: 'Times New Roman', Times, serif
 }
 
+
 body{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: start;
+    align-items: stretch;
+    height: auto;
+    min-height: 100vh;
 }
-
 
 li{
     margin-left: 30px;
@@ -41,7 +44,7 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    height: 100vh;
+    height: auto;
     width: 20%;
     background-color: #09233B;
     color: white;
@@ -61,7 +64,7 @@ h1{
 }
 
 #sinistra div{
-    margin: 10px 5px 20px 10px;
+    margin: 8px 5px 8px 10px;
 }
 /* immagine profilo */
 #pic-container{
@@ -98,7 +101,8 @@ h1{
     flex-direction: column;
     background-color: white;
     width: 80%;
-    height: 100vh;
+    height: auto;
+    padding-top: 10px;
 }
 
 #privacy{
@@ -106,14 +110,14 @@ h1{
     flex-direction: column;
     justify-content: end;
     align-items: end;
-    font-size: 14px
+    font-size: 0.8em;
 }
 #firma img{
-    width: 200px;
+    width: 180px;
 }
 
 .section{
-    margin: 10px 0 10px 20px;
+    margin: 6px 0 0 20px;
 }
 
 .periodo, .descrizione{
@@ -121,7 +125,7 @@ h1{
 }
 
 .little-section{
-    margin-top: 5px;
+    margin-top: 3px;
     margin-left: 20px;
 }
 
