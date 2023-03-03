@@ -11,6 +11,10 @@ body {
   font-size: 18px;
 }
 
+section {
+  scroll-margin-top: 30px;
+}
+
 .section-title {
   width: 100%;
   font-family: "Questrial", sans-serif;
@@ -231,6 +235,11 @@ i {
 .form-control {
   color: #09233b;
   font-weight: 700;
+  border-radius: 20px;
+}
+
+#message {
+  resize: none;
 }
 
 #instagram-logo:hover {
