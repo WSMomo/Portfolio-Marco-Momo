@@ -1,3 +1,7 @@
+/* prevenzione modalità scura*/
+:root {
+    color-scheme: only light;
+}
 /* generale */
 
 *{
