@@ -7,7 +7,8 @@
 body{
     background-color: $main-color;
     color: $text-color;
-    font-family: 'Source Code Pro', monospace;
+    font-family: $main-font;
+    font-weight: $light;
     font-size: 18px;
 }
 
@@ -16,7 +17,7 @@ section{
 }
 .section-title{
     width: 100%;
-    font-family: 'Questrial', sans-serif;
+    font-family: $secondary-font;
     font-size: 60px;
     margin-top: 80px;
 }

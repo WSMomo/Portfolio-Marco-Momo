@@ -8,6 +8,7 @@ body {
   background-color: #09233b;
   color: #66c7f4;
   font-family: "Source Code Pro", monospace;
+  font-weight: 200;
   font-size: 18px;
 }
 
@@ -102,6 +103,10 @@ section {
   margin: 0 15px;
 }
 
+h1 {
+  font-weight: 200;
+}
+
 #pic-img {
   max-width: 400px;
   border-radius: 5px;
@@ -149,9 +154,6 @@ section {
 @media (max-width: 990px) {
   #about-me-description {
     padding: 20px;
-  }
-  #about-me-description span a {
-    font-size: 18px;
   }
   span {
     display: flex;
