@@ -30,7 +30,7 @@ h2{
     font-size: 20px;
 }
 /* divisione */
-#divider{
+.divider{
     margin-left: 20px;
     height: 3px;
     width: 10%;
