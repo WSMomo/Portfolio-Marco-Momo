@@ -205,6 +205,10 @@ i {
   color: #EA2B2E;
 }
 
+#github-icon:hover {
+  color: #fff;
+}
+
 .carousel-inner {
   border-radius: 10px;
   border: 1px solid #66c7f4;
