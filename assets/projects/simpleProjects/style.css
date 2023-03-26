@@ -69,21 +69,18 @@ h1{
     border: 1px solid white;
     margin: 10px;
     max-width: 70%;
-    
     border-radius: 10px;
     border: 1px #fff solid;
+    position: relative;
 }
 a{
     border-radius: 10px;
+    background-color: white;
 }
 img{
     filter: brightness(75%);
     width: 100%;
     border-radius: 10px;
-}
-
-.overlay{
-    position: relative;
 }
 
 .description{
@@ -99,9 +96,9 @@ img{
     color: black;
     visibility: hidden;
     width: 100%;
-    transition: all 0.7s ease-in-out;;
     height: 20%;
     border-radius: 10px;
+    transition: all 0.7s ease-in-out;
 }
 
 .description p,
