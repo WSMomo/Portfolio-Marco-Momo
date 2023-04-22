@@ -35,6 +35,7 @@ h1{
     height: 100%;
 }
 .social a{
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,7 +44,7 @@ h1{
 }
 .icons {
     margin-top: 10px;
-    height: 90%;
+    height: 100%;
     border-radius: 10%;
     border: none;
 }
