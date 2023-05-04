@@ -5,10 +5,16 @@
 
 .item{
     height: 400px;
+
 }
 
 .carousel-caption{
-    color: $text-color;
+    color: $main-color;
+    background-color: $text-color;
+    font-weight: 500;
+    border-radius: 10px;
+    min-width: fit-content;
+    
 }
 
 @media (max-width: 990px) {
