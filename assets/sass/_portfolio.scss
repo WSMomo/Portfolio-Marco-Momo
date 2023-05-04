@@ -9,10 +9,11 @@
 }
 
 .carousel-caption{
-    color: $main-color;
-    background-color: $text-color;
+    color: $text-color;
+    background-color: $main-color;
     font-weight: 500;
     border-radius: 10px;
+    padding: 5px;
     min-width: fit-content;
     
 }

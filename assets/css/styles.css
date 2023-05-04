@@ -219,10 +219,11 @@ i {
 }
 
 .carousel-caption {
-  color: #09233b;
-  background-color: #66c7f4;
+  color: #66c7f4;
+  background-color: #09233b;
   font-weight: 500;
   border-radius: 10px;
+  padding: 5px;
   min-width: fit-content;
 }
 
