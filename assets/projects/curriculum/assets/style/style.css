@@ -1,180 +1,181 @@
 /* prevenzione modalità scura*/
 :root {
-    color-scheme: only light;
+  color-scheme: only light;
 }
 /* generale */
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Times New Roman', Times, serif
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
 }
 
-
-body{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: stretch;
-    height: auto;
-    min-height: 100vh;
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  height: auto;
+  min-height: 100vh;
 }
 
-li{
-    margin-left: 30px;
+li {
+  margin-left: 30px;
 }
 
-h2{
-    text-transform: uppercase;
-    font-size: 20px;
+h2 {
+  text-transform: uppercase;
+  font-size: 20px;
 }
 /* divisione */
-.divider{
-    margin-left: 20px;
-    height: 3px;
-    width: 10%;
-    background-color: black;
+.divider {
+  margin-left: 20px;
+  height: 3px;
+  width: 10%;
+  background-color: black;
 }
 
-
 /* lato sinistro */
-#sinistra{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    height: auto;
-    width: 20%;
-    background-color: #09233B;
-    color: white;
+#sinistra {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  height: auto;
+  width: 20%;
+  background-color: #09233b;
+  color: white;
 }
 
 /* titolo */
 
-#curriculum-title{
-    width: 100%;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#curriculum-title {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-h1{
-    font-size: 40px;
+h1 {
+  font-size: 40px;
 }
 
-#sinistra div{
-    margin: 8px 5px 8px 10px;
+#sinistra div {
+  margin: 8px 5px 8px 10px;
 }
 /* immagine profilo */
-#pic-container{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#pic-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#pic{
-    width: 60%;
-    border: 1px white solid;
+#pic {
+  width: 60%;
+  border: 1px white solid;
 }
-#contatti ul{
-    margin-top: 8px;
+#contatti ul {
+  margin-top: 8px;
 }
 
-#contatti li{
-    margin-top: 3px;
-    margin-left: 10px;
-    list-style: none;
+#contatti li {
+  margin-top: 3px;
+  margin-left: 10px;
+  list-style: none;
 }
 
 #contatti li i {
-    margin-right: 8px;
+  margin-right: 8px;
 }
-
 
 /* lato destro */
-#destra{
+#destra {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  background-color: white;
+  width: 80%;
+  height: auto;
+  padding-top: 10px;
+}
+
+#privacy {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  font-size: 0.8em;
+}
+#firma img {
+  width: 180px;
+}
+
+.section {
+  margin: 6px 0 0 20px;
+}
+
+.periodo,
+.descrizione {
+  font-weight: 700;
+}
+
+.little-section {
+  margin-top: 3px;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #sinistra,
+  #destra {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  #sinistra {
+    background-color: #09233b;
+    color: white;
+  }
+
+  #pic-container {
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: start;
-    flex-direction: column;
-    background-color: white;
-    width: 80%;
-    height: auto;
-    padding-top: 10px;
-}
+    align-items: center;
+    margin-bottom: 10px;
+  }
 
-#privacy{
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: end;
-    font-size: 0.8em;
-}
-#firma img{
-    width: 180px;
-}
+  #pic {
+    width: 40%;
+    max-width: 250px;
+    border: 1px white solid;
+  }
 
-.section{
-    margin: 6px 0 0 20px;
-}
+  #contatti ul {
+    margin-top: 0;
+  }
 
-.periodo, .descrizione{
-    font-weight: 700;
-}
+  .section {
+    margin: 10px 0;
+  }
 
-.little-section{
-    margin-top: 3px;
-    margin-left: 20px;
-}
-
-  @media screen and (max-width: 1200px) {
-    body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #sinistra, #destra {
-        width: 100%;
-        height: auto;
-        padding: 20px;
-    }
-
-    #sinistra {
-        background-color: #09233B;
-        color: white;
-    }
-
-    #pic-container {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 10px;
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 30px;
     }
 
     #pic {
-        width: 40%;
-        border: 1px white solid;
+      width: 60%;
+      max-width: 250px;
     }
-
-    #contatti ul {
-        margin-top: 0;
-    }
-
-    .section {
-        margin: 10px 0;
-    }
-
-    @media screen and (max-width: 600px) {
-        h1 {
-            font-size: 30px;
-        }
-
-        #pic {
-            width: 60%;
-        }
-    }
+  }
 }
