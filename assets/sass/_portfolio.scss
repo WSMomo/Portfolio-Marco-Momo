@@ -1,25 +1,23 @@
-.carousel-inner{
-    border-radius: 10px;
-    border: 1px solid $text-color;
+.carousel-inner {
+  border-radius: 10px;
+  border: 1px solid $text-color;
 }
 
-.item{
-    height: 400px;
-
+.item {
+  height: 400px;
 }
 
-.carousel-caption{
-    color: $text-color;
-    background-color: $main-color;
-    font-weight: 500;
-    border-radius: 10px;
-    padding: 5px;
-    min-width: fit-content;
-    
+.carousel-caption {
+  color: $text-color;
+  background-color: $main-color;
+  font-weight: 500;
+  border-radius: 10px;
+  padding: 5px;
+  min-width: fit-content;
 }
 
 @media (max-width: 990px) {
-    .item{
-        height: 250px;
-    }
+  .item {
+    height: 250px;
+  }
 }
