@@ -182,27 +182,31 @@ i {
 }
 
 #html-icon:hover {
-  color: #E44D26;
+  color: #e44d26;
 }
 
 #css-icon:hover {
-  color: #264DE4;
+  color: #264de4;
 }
 
 #js-icon:hover {
-  color: #EAD41C;
+  color: #ead41c;
 }
 
 #bootstrap-icon:hover {
-  color: #830AFA;
+  color: #830afa;
 }
 
 #sass-icon:hover {
-  color: #CC6699;
+  color: #cc6699;
 }
 
 #java-icon:hover {
-  color: #EA2B2E;
+  color: #ea2b2e;
+}
+
+#react-icon:hover {
+  color: #0d6d8c;
 }
 
 #github-icon:hover {

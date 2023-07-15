@@ -1,45 +1,48 @@
-#skills{
-    .container{
-        .row{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
+#skills {
+  .container {
+    .row {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
+  }
 }
 
-a{
-    color: #66c7f4;
+a {
+  color: #66c7f4;
 }
 
-i{
-    margin: 15px;
+i {
+  margin: 15px;
 }
-#html-icon:hover{
-    color: #E44D26;
-}
-
-#css-icon:hover{
-    color: #264DE4;
+#html-icon:hover {
+  color: #e44d26;
 }
 
-#js-icon:hover{
-    color: #EAD41C;
+#css-icon:hover {
+  color: #264de4;
 }
 
-#bootstrap-icon:hover{
-    color: #830AFA;
+#js-icon:hover {
+  color: #ead41c;
 }
 
-#sass-icon:hover{
-    color: #CC6699;
+#bootstrap-icon:hover {
+  color: #830afa;
 }
 
-#java-icon:hover{
-    color: #EA2B2E;
+#sass-icon:hover {
+  color: #cc6699;
 }
 
-#github-icon:hover{
-    color: #fff;
+#java-icon:hover {
+  color: #ea2b2e;
+}
+
+#react-icon:hover {
+  color: #0d6d8c;
+}
+#github-icon:hover {
+  color: #fff;
 }
