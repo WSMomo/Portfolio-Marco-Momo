@@ -1,21 +1,21 @@
 #send-button {
-    background-color: $text-color;
-    color: $main-color;
-    border: none;
-    font-weight: $bold;
-    border-radius: 20px;
-    &:hover{
-        font-size: 1.2em;
-    }
+  background-color: $text-color;
+  color: $main-color;
+  border: none;
+  font-weight: $bold;
+  border-radius: 20px;
+  transition: all 0.75s;
+  &:hover {
+    filter: drop-shadow(0 0 0.25rem $text-color);
+  }
 }
 
-
-.form-control{
-    color: #09233b;
-    font-weight: $bold;
-    border-radius: 20px;
+.form-control {
+  color: #09233b;
+  font-weight: $bold;
+  border-radius: 20px;
 }
 
-#message{
-    resize: none;
+#message {
+  resize: none;
 }

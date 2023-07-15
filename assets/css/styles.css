@@ -146,9 +146,10 @@ h1 {
   margin: 10px;
   padding: 5px 10px;
   border-radius: 5px;
+  transition: all 0.75s;
 }
 #about-me-description span a:hover {
-  font-size: 1.2em;
+  filter: drop-shadow(0 0 0.25rem #66c7f4);
 }
 
 @media (max-width: 990px) {
@@ -242,9 +243,10 @@ i {
   border: none;
   font-weight: 700;
   border-radius: 20px;
+  transition: all 0.75s;
 }
 #send-button:hover {
-  font-size: 1.2em;
+  filter: drop-shadow(0 0 0.25rem #66c7f4);
 }
 
 .form-control {
@@ -257,14 +259,14 @@ i {
   resize: none;
 }
 
-#instagram-logo:hover {
-  color: #CA237A;
+footer {
+  margin-top: 2rem;
 }
 
 #linkedin-logo:hover {
-  color: #0077B7;
+  color: #0077b7;
 }
 
 #github-logo:hover {
-  color: #FFFFFF;
+  color: #ffffff;
 }/*# sourceMappingURL=styles.css.map */
