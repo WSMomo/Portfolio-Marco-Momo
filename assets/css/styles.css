@@ -222,6 +222,7 @@ i {
 .item {
   height: 400px;
   object-fit: cover;
+  filter: opacity(90%);
 }
 
 .carousel-caption {
